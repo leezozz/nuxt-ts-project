@@ -7,9 +7,9 @@
 
 <script lang="ts" setup>
 useSeoMeta({
+  // titleChunk：useSeoMeta的title。
   titleTemplate: (titleChunk) => {
-    console.log('titleChunk', titleChunk)
-    return titleChunk ? `${titleChunk}` : `Nuxt-Ts`;
+    return titleChunk ? `${titleChunk}` : 'Nuxt-Ts'
   }
 })
 </script>
