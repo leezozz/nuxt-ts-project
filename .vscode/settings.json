@@ -1,0 +1,14 @@
+{
+  "css.validate": false,
+	"less.validate": false,
+	"scss.validate": false,
+	"css.lint.unknownAtRules": "ignore",
+
+	"editor.formatOnSave": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+    "eslint.autoFixOnSave": true,
+	},
+	"files.autoSaveDelay": 500,
+	"vue.codeActions.enabled": false
+}
