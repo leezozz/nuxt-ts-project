@@ -1,6 +1,12 @@
 <template>
   <div class="nuxt-default-layout">
-    <slot></slot>
+    <div class="aside-container">
+      侧边栏
+    </div>
+    <div class="content-area">
+      内容区域
+      <slot></slot>
+    </div>
   </div>
 </template>
 
@@ -10,6 +16,16 @@
 
 <style scoped lang="scss">
 .nuxt-default-layout {
-  padding: 20px;
+  display: flex;
+  height: 100vh;
+  .aside-container {
+    width: 200px;
+    max-width: 200px;
+    border: 1px solid red;
+  }
+  .content-area {
+    flex: 1;
+    border: 1px solid red;
+  }
 }
 </style>

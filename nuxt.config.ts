@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/eslint-module',
-    '@pinia/nuxt',
+    '@pinia/nuxt'
   ],
   vue: {
 
@@ -16,5 +16,5 @@ export default defineNuxtConfig({
     emitWarning: false,
     emitError: false,
     lintOnStart: false
-  },
+  }
 })

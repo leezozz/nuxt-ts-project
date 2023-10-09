@@ -1,6 +1,6 @@
 <template>
-  <div>
-    test
+  <div class="index-container">
+    首页
   </div>
 </template>
 
@@ -9,9 +9,12 @@ useSeoMeta({
   title: '首页'
 })
 
-console.log('测试')
+console.log('首页')
 </script>
 
 <style scoped lang="scss">
-
+.index-container {
+  padding: 10px;
+  background-color: #ccd6d9;
+}
 </style>

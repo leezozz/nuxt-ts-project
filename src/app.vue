@@ -14,6 +14,6 @@ useSeoMeta({
 })
 </script>
 
-<style scoped lang="scss">
-
+<style lang="scss">
+@use "~/styles/index.scss";
 </style>
